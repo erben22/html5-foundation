@@ -1,0 +1,53 @@
+@import url("foo.css");
+header {
+  background-color: green;
+  color: cornflowerblue; }
+
+footer {
+  background-color: darkorange;
+  color: ghostwhite; }
+
+#fancy {
+  background-color: red;
+  color: lightgray; }
+
+#fancier {
+  background-color: darkblue;
+  color: palegoldenrod; }
+
+.my_heading {
+  font-family: "Andale Mono";
+  font-size: x-large; }
+
+.green {
+  color: lime; }
+
+.hide-for-outline {
+  display: none; }
+
+li:first-child {
+  color: blue; }
+
+li:nth-child(even) {
+  background-color: lightgray; }
+
+li:nth-child(odd) {
+  background-color: lightblue; }
+
+li:last-child {
+  color: hotpink; }
+
+article:first-of-type {
+  border: 1px solid black; }
+
+header > p {
+  color: deeppink; }
+
+header .my_heading {
+  background-color: midnightblue; }
+
+header > div > div:last-child > p:last-child {
+  background-color: gray;
+  color: #CC0000; }
+
+/*# sourceMappingURL=foo.css.map */

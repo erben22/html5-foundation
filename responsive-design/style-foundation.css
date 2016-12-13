@@ -1,0 +1,22 @@
+label {
+  border-radius: 10px;
+  border: 5px solid black; }
+
+body {
+  background-color: #002244;
+  color: white; }
+
+@media screen and (max-width: 1024px) {
+  body {
+    background-color: orangered;
+    color: white; } }
+@media screen and (max-width: 768px) {
+  body {
+    background-color: #FF7700;
+    color: #0077FF; } }
+@media screen and (max-width: 400px) {
+  body {
+    background-color: rgba(0, 128, 255, 0.5);
+    color: rgba(255, 0, 128, 0.5); } }
+
+/*# sourceMappingURL=style-foundation.css.map */

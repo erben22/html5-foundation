@@ -1,0 +1,42 @@
+$bg_color: #002244;
+$body_color: white;
+
+$bg_color_small: orangered;
+$body_color_small: white;
+
+$bg_color_smaller: #FF7700;
+$body_color_smaller: #0077FF;
+
+$bg_color_smallest: rgba(0, 128, 255, .5);
+$body_color_smallest: rgba(255, 0, 128, .5);
+
+label {
+  border-radius: 10px;
+  border: 5px solid black;
+}
+
+body {
+  background-color: $bg_color;
+  color: $body_color;
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    background-color: $bg_color_small;
+    color: $body_color_small;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: $bg_color_smaller;
+    color: $body_color_smaller;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    background-color: $bg_color_smallest;
+    color: $body_color_smallest;
+  }
+}

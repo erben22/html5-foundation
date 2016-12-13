@@ -7,6 +7,35 @@
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-
+    <form>
+        <div>
+            <label>First Name:</label>
+            <input type="text" id="first-name" name="first-name" tabindex="1"/ >
+        </div>
+        <div>
+            <label>Email address:</label>
+            <input type="email" id="email" name="email" tabindex="2"
+                   required placeholder="email@email.com"/>
+        </div>
+        <div>
+            <label>Birthdate:</label>
+            <input type="date" id="birthdate" name="birthdate" tabindex="3" />
+        </div>
+        <div>
+            <label>Not excited:</label>
+            <input type="range" min="0" max="10" step="2" value="0" id="not-excited"
+                   name="not-excited" tabindex="4"/>
+        </div>
+        <div>
+            <label>Pick a color, any color!</label>
+            <input type="color" name="chosen-color" id="chosen-color"
+                   value="#CC0000" tabindex="5" />
+        </div>
+        <div>
+            <label>Pick me some pattern:</label>
+            <input pattern="\d*" name="pick-a-pattern" id="pick-a-pattern" />
+        </div>
+        <button>Submit</button>
+    </form>
 </body>
 </html>
